@@ -1,0 +1,16 @@
+{
+    "name": "DRG.Framework",
+    "rootNamespace": "DRG.Framework",
+    "references": [
+        "DRG.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

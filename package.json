@@ -1,0 +1,15 @@
+{
+    "name": "com.drg.framework",
+    "version": "1.0.0",
+    "displayName": "DRG Framework",
+    "description": "Module tree, service locator, signal bus hierarchy, and Unity runtime bridge.",
+    "unity": "2022.3",
+    "author": {
+        "name": "Jan Mašarski",
+        "email": "yanmasharski@gmail.com",
+        "url": "https://yanmasharski.github.io"
+    },
+    "dependencies": {
+        "com.drg.core": "https://github.com/yanmasharski/drg.core.git#1.0.0"
+    }
+}
