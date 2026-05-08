@@ -1,0 +1,382 @@
+DRG FAIR USE LICENSE
+Version 1.1, 2026
+
+Copyright (c) 2026 Jan Mašarski <yanmasharski@gmail.com>
+All rights reserved.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PREAMBLE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+This License allows broad use of the Software at no cost to individuals
+and small organizations, while requiring a modest monthly contribution
+from larger commercial users. The fee is not a purchase price but a
+fair share of the cost of creating and maintaining the Software.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1. DEFINITIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+"Software" means the source code, compiled code, documentation, and any
+other files made available under this License.
+
+"Derivative Work" means any work that is based on or derived from the
+Software in whole or in part, including forks, ports, adaptations,
+translations, or modifications, whether or not distributed as a separate
+package.
+
+"You" (or "Your") means the individual or legal entity exercising the
+rights granted by this License. For legal entities, "You" includes all
+entities that control, are controlled by, or are under common control
+with the contracting entity, where "control" means ownership of more
+than fifty percent (50%) of the voting shares or equivalent.
+
+"Annual Gross Revenue" means the total gross revenue or gross income of
+You from all sources and all activities, for a given calendar year,
+expressed in United States Dollars (USD). Revenue earned in other
+currencies shall be converted to USD at the average mid-market exchange
+rate for that calendar year as published by the European Central Bank.
+Annual Gross Revenue is determined at the entity level as defined above,
+not at the level of a single product or project.
+
+"Licensor" means Jan Mašarski, the copyright holder of the Software.
+
+"License Month" means each calendar month during which You use,
+distribute, or otherwise exercise any rights under this License.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2. GRANT OF RIGHTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Subject to the terms and conditions of this License, the Licensor hereby
+grants You a worldwide, non-exclusive, non-transferable, royalty-free
+(subject to Section 3) right to:
+
+  (a) use, copy, and run the Software;
+  (b) modify the Software and create Derivative Works;
+  (c) distribute the Software or Derivative Works to third parties.
+
+All rights not expressly granted herein are reserved by the Licensor.
+This License grants a license to use the Software; it does not transfer
+any ownership of intellectual property rights.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3. USAGE FEE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+3.1  Free Use
+
+  Use of the Software is free of charge if Your Annual Gross Revenue
+  for the most recently completed calendar year is less than
+  USD 100,000.
+
+  If You are a new entity with no completed calendar year of revenue,
+  the free threshold applies until the end of Your first full calendar
+  year of operation.
+
+3.2  Fee Schedule
+
+  If Your Annual Gross Revenue for the most recently completed calendar
+  year meets or exceeds the thresholds below, You are required to pay
+  the Licensor a monthly fee for each License Month:
+
+  ┌────────────────────────────────────────┬───────────────────┐
+  │ Annual Gross Revenue (USD)             │ Monthly Fee (USD) │
+  ├────────────────────────────────────────┼───────────────────┤
+  │ 100,000 – 999,999                      │              10   │
+  │ 1,000,000 – 9,999,999                  │             100   │
+  │ 10,000,000 and above                   │           1,000   │
+  └────────────────────────────────────────┴───────────────────┘
+
+  The applicable fee tier is reassessed each January 1 based on the
+  Annual Gross Revenue of the preceding calendar year. If Your revenue
+  crosses a threshold during the year, the new tier applies from
+  January 1 of the following year; mid-year adjustments are not
+  required.
+
+3.3  Payment Timing
+
+  The monthly fee for each License Month is due no later than the
+  15th day of the immediately following calendar month (e.g., the
+  fee for March is due by April 15).
+
+  For Your first License Month, the fee is due within thirty (30) days
+  of the date on which You first exercise any rights under this License.
+
+  The simplest and recommended method of compliance is to set up a
+  recurring monthly sponsorship at the applicable amount, which
+  satisfies this obligation automatically.
+
+3.4  Payment Method
+
+  Fees must be paid via GitHub Sponsors at:
+
+    https://github.com/sponsors/yanmasharski
+
+  The Licensor may designate additional or alternative payment methods
+  by publishing notice in the repository containing this License.
+
+3.5  Self-Reporting and Good Faith
+
+  You are solely responsible for accurately determining Your Annual
+  Gross Revenue and paying the applicable fee. This License operates
+  on the basis of good faith self-reporting. No invoice will be issued
+  by the Licensor. Knowingly misrepresenting Your Annual Gross Revenue
+  to reduce or avoid a fee obligation constitutes a material breach of
+  this License and may constitute fraud under applicable law.
+
+3.6  Grace Period
+
+  If You fail to pay a fee by the applicable due date under Section 3.3,
+  You have thirty (30) days from that due date (the "Grace Period") to
+  cure the breach by paying all outstanding fees. If full payment is
+  not received within the Grace Period, this License terminates
+  automatically pursuant to Section 8.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4. DERIVATIVE WORKS AND REDISTRIBUTION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+4.1  You may create, use, and distribute Derivative Works, provided that:
+
+  (a) You retain, in all copies of the Software and Derivative Works,
+      all copyright notices, this License text, and the attribution
+      statement required by Section 5.
+
+  (b) Derivative Works must be distributed under this License or under
+      a license with terms that are equivalent to or more restrictive
+      than the fee obligations set forth in Section 3. You may not
+      distribute Derivative Works under terms that eliminate, reduce,
+      or circumvent those fee obligations.
+
+  (c) Each recipient of a Derivative Work automatically receives a
+      license from the Licensor under the terms of this License,
+      including the fee obligations of Section 3. Fee obligations apply
+      to each recipient independently based on their own Annual Gross
+      Revenue.
+
+  (d) You must prominently state in the Derivative Work's documentation
+      or repository that the work is derived from the Software, identify
+      the Licensor, and link to the original repository and this License.
+
+4.2  You may not sublicense the Software or Derivative Works. Any attempt
+  to sublicense is void and will automatically terminate Your license.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5. ATTRIBUTION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Any distribution of the Software or Derivative Works must include:
+
+  (a) a complete, unmodified copy of this License; and
+
+  (b) the following notice in a location reasonably prominent to users:
+
+        "This software includes components developed by Jan Mašarski
+         (https://yanmasharski.github.io), licensed under the
+         DRG Fair Use License."
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6. DISCLAIMER OF WARRANTIES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW,
+THE LICENSOR EXPRESSLY DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT
+LIMITED TO:
+
+  - THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
+    PARTICULAR PURPOSE;
+  - ANY WARRANTY THAT THE SOFTWARE IS ERROR-FREE, SECURE, OR FREE
+    OF DEFECTS;
+  - ANY WARRANTY OF TITLE OR NON-INFRINGEMENT OF THIRD-PARTY RIGHTS;
+  - ANY WARRANTY THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS OR
+    OPERATE WITHOUT INTERRUPTION.
+
+THE ENTIRE RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE
+SOFTWARE RESTS WITH YOU. SHOULD THE SOFTWARE PROVE DEFECTIVE, YOU
+ASSUME THE ENTIRE COST OF ALL NECESSARY SERVICING, REPAIR, OR CORRECTION.
+
+This disclaimer is an essential part of this License. No use of the
+Software is authorized except under this disclaimer.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+7. LIMITATION OF LIABILITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW:
+
+7.1  IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY INDIRECT,
+  INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES
+  OF ANY KIND, INCLUDING BUT NOT LIMITED TO:
+
+    - LOSS OF PROFITS, REVENUE, DATA, OR GOODWILL;
+    - BUSINESS INTERRUPTION;
+    - COST OF SUBSTITUTE GOODS, SERVICES, OR TECHNOLOGY;
+    - PERSONAL INJURY OR PROPERTY DAMAGE;
+
+  WHETHER ARISING UNDER CONTRACT, TORT (INCLUDING NEGLIGENCE OR STRICT
+  LIABILITY), STATUTE, OR ANY OTHER LEGAL THEORY, AND EVEN IF THE
+  LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+7.2  THE LICENSOR'S TOTAL AGGREGATE LIABILITY TO YOU FOR ALL CLAIMS
+  ARISING UNDER OR RELATED TO THIS LICENSE OR THE SOFTWARE SHALL NOT
+  EXCEED THE GREATER OF:
+
+    (a) THE TOTAL FEES ACTUALLY PAID BY YOU TO THE LICENSOR IN THE
+        TWELVE (12) CALENDAR MONTHS IMMEDIATELY PRECEDING THE EVENT
+        GIVING RISE TO THE CLAIM; OR
+
+    (b) TEN UNITED STATES DOLLARS (USD 10).
+
+7.3  SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF
+  CERTAIN DAMAGES. IN SUCH JURISDICTIONS, THE LICENSOR'S LIABILITY IS
+  LIMITED TO THE FULLEST EXTENT PERMITTED BY LAW. THE LIMITATIONS IN
+  THIS SECTION DO NOT AFFECT ANY LIABILITY THAT CANNOT BE LIMITED
+  UNDER APPLICABLE LAW.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+8. TERMINATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+8.1  Automatic Termination
+
+  This License and all rights granted hereunder terminate automatically,
+  without notice from the Licensor, if You:
+
+  (a) fail to pay any applicable fee within the Grace Period specified
+      in Section 3.6; or
+
+  (b) materially breach any other obligation under this License and
+      fail to cure such breach within thirty (30) days of becoming
+      aware of it.
+
+8.2  Effect of Termination
+
+  Upon termination of this License:
+
+  (a) all rights granted to You immediately and irrevocably cease;
+
+  (b) any continued use, reproduction, modification, or distribution
+      of the Software or Derivative Works constitutes copyright
+      infringement and may give rise to civil and criminal liability
+      under applicable law;
+
+  (c) You must immediately cease all exercise of rights under this
+      License and destroy or remove all copies of the Software and
+      Derivative Works in Your possession or control.
+
+8.3  Reinstatement
+
+  The Licensor may, at their sole and absolute discretion, reinstate
+  this License upon written confirmation that all outstanding fees have
+  been paid and all breaches have been cured. Reinstatement, if granted,
+  is prospective only and does not waive or release any claims arising
+  from the period of termination. No reinstatement is guaranteed.
+
+8.4  Survival
+
+  The following sections survive any termination or expiration of this
+  License: Section 1 (Definitions), Section 5 (Attribution, with
+  respect to any distributions made prior to termination), Section 6
+  (Disclaimer of Warranties), Section 7 (Limitation of Liability),
+  Section 8.2 (Effect of Termination), Section 9 (Intellectual
+  Property), and Section 10 (General Provisions).
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+9. INTELLECTUAL PROPERTY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The Licensor retains all copyright, patent, trademark, trade secret,
+and other intellectual property rights in and to the Software. Nothing
+in this License transfers, assigns, or conveys any ownership interest
+in any intellectual property rights to You or any third party. The
+rights granted in Section 2 are a limited license to use the Software
+and do not constitute a sale of the Software or any part thereof.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+10. GENERAL PROVISIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+10.1  Entire Agreement
+
+  This License constitutes the entire agreement between You and the
+  Licensor with respect to the Software and supersedes all prior and
+  contemporaneous agreements, representations, and understandings,
+  whether written or oral.
+
+10.2  Severability
+
+  If any provision of this License is found by a court or arbitral
+  tribunal of competent jurisdiction to be invalid, illegal, or
+  unenforceable, that provision shall be modified to the minimum extent
+  necessary to make it enforceable. If modification is not possible,
+  that provision shall be severed from this License. Such invalidity or
+  severance shall not affect the validity or enforceability of the
+  remaining provisions.
+
+10.3  No Waiver
+
+  The Licensor's failure to enforce any provision of this License on
+  any occasion shall not constitute a waiver of the right to enforce
+  that provision or any other provision on any future occasion.
+
+10.4  No Agency
+
+  Nothing in this License creates any partnership, joint venture,
+  agency, franchise, or employment relationship between the parties.
+
+10.5  Governing Principles and Dispute Resolution
+
+  This License shall be interpreted in accordance with the general
+  principles of international commercial law, including those reflected
+  in the UNIDROIT Principles of International Commercial Contracts
+  (latest edition).
+
+  Any dispute, controversy, or claim arising out of or relating to
+  this License, or the breach, termination, or invalidity thereof,
+  shall be finally settled by arbitration under the Rules of Arbitration
+  of the International Chamber of Commerce (ICC) by a sole arbitrator.
+  The place of arbitration shall be agreed upon by the parties, or,
+  failing agreement, determined by the arbitrator. The language of the
+  arbitration shall be English. This clause does not prevent the
+  Licensor from seeking interim or injunctive relief from any court of
+  competent jurisdiction to protect intellectual property rights.
+
+10.6  Language
+
+  This License is written in English. Any translation is provided solely
+  for convenience and has no legal effect. In case of any conflict or
+  inconsistency between the English text and any translation, the
+  English text shall prevail.
+
+10.7  Updates to License Terms
+
+  The Licensor reserves the right to publish updated versions of this
+  License. Each version will be identified by a version number. Once
+  You have accepted a specific version, You may continue to use the
+  Software under that version. New distributions of the Software may
+  be released under a new version of the License, but this shall not
+  retroactively affect rights previously granted.
+
+10.8  Contact
+
+  For licensing questions, fee obligations, or payment arrangements:
+    Email:           yanmasharski@gmail.com
+    GitHub Sponsors: https://github.com/sponsors/yanmasharski
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+END OF DRG FAIR USE LICENSE
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

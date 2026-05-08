@@ -1,7 +1,8 @@
 {
-    "name": "DRG.Framework",
+    "name": "DRG.Framework.Runtime",
     "rootNamespace": "DRG.Framework",
     "references": [
+        "DRG.Framework",
         "DRG.Core"
     ],
     "includePlatforms": [],
@@ -12,5 +13,5 @@
     "autoReferenced": true,
     "defineConstraints": [],
     "versionDefines": [],
-    "noEngineReferences": true
+    "noEngineReferences": false
 }
