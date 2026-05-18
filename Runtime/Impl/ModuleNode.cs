@@ -47,8 +47,11 @@ namespace DRG.Framework
 		{
 			if (state != ModuleState.Uninitialized)
 			{
+				Logger.LogError(() => $"[{moduleId}] Already initialized");
 				return;
 			}
+
+			Logger.Log(() => $"[{moduleId}] Initializing");
 
 			SetState(ModuleState.Loading);
 			try

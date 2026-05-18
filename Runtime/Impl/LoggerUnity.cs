@@ -12,40 +12,44 @@ namespace DRG.Core.Logs
 			_level = level;
 		}
 
-		public void Log(string message)
+		public void Log(Func<string> message)
 		{
 			if (_level > ILogger.LogLevel.Debug)
 			{
 				return;
 			}
-			Debug.Log(message);
+
+			Debug.Log(message());
 		}
 
-		public void LogWarning(string message)
+		public void LogWarning(Func<string> message)
 		{
 			if (_level > ILogger.LogLevel.Warning)
 			{
 				return;
 			}
-			Debug.LogWarning(message);
+
+			Debug.LogWarning(message());
 		}
 
-		public void LogError(string message)
+		public void LogError(Func<string> message)
 		{
 			if (_level > ILogger.LogLevel.Error)
 			{
 				return;
 			}
-			Debug.LogError(message);
+
+			Debug.LogError(message());
 		}
 
-		public void LogException(Exception exception)
+		public void LogException(Func<Exception> exception)
 		{
 			if (_level > ILogger.LogLevel.Fatal)
 			{
 				return;
 			}
-			Debug.LogException(exception);
+
+			Debug.LogException(exception());
 		}
 	}
 }

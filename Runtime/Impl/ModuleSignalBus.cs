@@ -84,7 +84,7 @@ namespace DRG.Framework
 					}
 					catch (Exception e)
 					{
-						_logger.LogException(e);
+						_logger.LogException(() => e);
 					}
 				}
 			}
