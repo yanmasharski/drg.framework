@@ -352,6 +352,12 @@ dotnet_naming_rule.public_properties_rule.symbols              = public_properti
 dotnet_naming_rule.public_properties_rule.style                = camel_case_style
 dotnet_naming_rule.public_properties_rule.severity             = warning
 
+# Enum member names must be PascalCase (CamelCase)
+dotnet_naming_symbols.enum_members_group.applicable_kinds = enum_field
+dotnet_naming_rule.enum_members_rule.symbols              = enum_members_group
+dotnet_naming_rule.enum_members_rule.style                = pascal_case_style
+dotnet_naming_rule.enum_members_rule.severity             = warning
+
 # Interfaces use PascalCase and are prefixed with uppercase 'I'
 # https://docs.microsoft.com/dotnet/standard/design-guidelines/names-of-classes-structs-and-interfaces
 dotnet_naming_symbols.interface_group.applicable_kinds = interface
