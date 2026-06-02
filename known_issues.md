@@ -9,7 +9,7 @@
 
 ## Major
 
-- [ ] Cascade `ModuleNode.Dispose()` to children — clear bus listeners and `StateChanged` (`ModuleNode.cs:148`)
+- [ ] Cascade `ModuleNode.Dispose()` to children — clear bus listeners and `stateChanged` subscriptions (`ModuleNode.cs:148`)
 - [ ] Log full exception (`e.ToString()`) on `InitializeAsync` failure (`ModuleNode.cs:65`)
 - [ ] Align `ModuleNode.Disable()` ordering with `Reset()` — call `OnDisable()` before state change (`ModuleNode.cs:80-84`)
 - [ ] Move `LoggerUnity` out of `DRG.Core.Logs` namespace (layering) (`LoggerUnity.cs:4`)

@@ -85,7 +85,7 @@ public abstract class ModuleNode : IDisposable
 {
     public ModuleState State { get; private set; }
     public string ModuleId { get; }
-    public event Action<ModuleState> StateChanged;
+    public Core.IObservable<ModuleState> stateChanged => _stateChanged;
 
     // ...
 
@@ -204,14 +204,14 @@ public class ConsentPlatformApplovin : IConsentPlatform
 
 ## Hot-Reload
 
-`StateChanged` fires whenever a module's state changes. A parent module subscribes to
-a child's `StateChanged` to orchestrate recovery.
+`stateChanged` notifies whenever a module's state changes. A parent module subscribes to
+a child's `stateChanged` to orchestrate recovery.
 
 ```csharp
 protected override async Task OnInitializeAsync()
 {
     _consent = new ConsentModule(Locator, Logger);
-    _consent.StateChanged += OnConsentStateChanged;
+    _consent.stateChanged.Subscribe(OnConsentStateChanged);
     await _consent.InitializeAsync();
     // ...
 }

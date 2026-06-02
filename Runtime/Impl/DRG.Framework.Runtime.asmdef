@@ -3,7 +3,8 @@
     "rootNamespace": "DRG.Framework",
     "references": [
         "DRG.Framework",
-        "DRG.Core"
+        "DRG.Core",
+		"DRG.Core.Runtime"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

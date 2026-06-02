@@ -14,10 +14,10 @@ namespace DRG.Framework
 		ModuleState state { get; }
 
 		/// <summary>
-		/// Fires whenever State changes. Used by parent modules to react to child state transitions
-		/// (e.g. trigger hot-reload when a dependency recovers from Failed).
+		/// Notifies whenever <see cref="state"/> changes. Used by parent modules to react to child
+		/// state transitions (e.g. trigger hot-reload when a dependency recovers from Failed).
 		/// </summary>
-		event Action<ModuleState> StateChanged;
+		Core.IObservable<ModuleState> stateChanged { get; }
 
 		/// <summary>
 		/// Transitions the module from Uninitialized → Ready (or Failed on exception).

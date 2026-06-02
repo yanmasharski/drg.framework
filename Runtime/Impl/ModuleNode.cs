@@ -1,6 +1,5 @@
 using System;
 using System.Threading.Tasks;
-using DRG.Core;
 using DRG.Core.Logs;
 
 namespace DRG.Framework
@@ -23,7 +22,9 @@ namespace DRG.Framework
 	{
 		public string moduleId { get; }
 		public ModuleState state { get; private set; } = ModuleState.Uninitialized;
-		public event Action<ModuleState> StateChanged;
+
+		private readonly Core.Observable<ModuleState> _stateChanged = new();
+		public Core.IObservable<ModuleState> stateChanged => _stateChanged;
 
 		protected readonly IModuleServiceLocator Locator;
 		protected readonly IModuleSignalBus Bus;
@@ -128,7 +129,7 @@ namespace DRG.Framework
 		private void SetState(ModuleState state)
 		{
 			this.state = state;
-			StateChanged?.Invoke(state);
+			_stateChanged.Notify(state);
 		}
 
 		/// <summary>
